@@ -41,10 +41,8 @@ export const metadata: Metadata = {
     description: DEFAULT_DESCRIPTION,
     images: [DEFAULT_OG_IMAGE],
   },
-  icons: {
-    icon: "/favicon.ico",
-    apple: "/assets/apple-touch-icon.png",
-  },
+  // Favicon + Apple touch icon are auto-detected from app/icon.png and
+  // app/apple-icon.png (no manual paths needed).
   // Google Search Console verification. Set NEXT_PUBLIC_GSC_VERIFICATION in
   // Vercel to the token from the "HTML tag" verification method.
   verification: {
